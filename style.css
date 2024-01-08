@@ -1,0 +1,15 @@
+body {
+  margin-top: 20rem;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

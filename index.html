@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="headline">
+      <h1>Currency Converter</h1>
+    </div>
+    <form action="/curreny/Convert" method="post">
+      <label for="amount">Amount:</label>
+      <input type="text" name="amount" required /><br />
+
+      <label for="from">From:</label>
+      <input type="text" name="from" required /><br />
+
+      <label for="to">To:</label>
+      <input type="text" name="to" required /><br />
+
+      <input type="submit" value="Convert" />
+    </form>
+  </body>
+</html>
